@@ -9,3 +9,27 @@ This repository provides a comprehensive collection of some official [R2RML test
 - ✅ **`Datalog_rules.rs`**: The Datalog program generated from the R2RML mapping document in Soufflé syntax.
 - ✅ **`triples.csv`** and **`quadruples.csv`**: The RDF triples and named graph quads produced after executing the Soufflé program.
 
+In addition, the repo contains the necessary user-defined c++ functions needed by souffle to run every `Datalog_rules.rs` file inside the c++ file `functors.cpp`.
+To run the Datalog program, one needs to do the following:
+
+1- Build Souffle following the instructions in [https://souffle-lang.github.io/build]
+2- add the `functors.cpp` file inside Souffle's directory and follow the instructions in [https://souffle-lang.github.io/functors] to megre them with the reasoner
+3- run Souffle on `Datalog_rules.rs` by following the instructions in [https://souffle-lang.github.io/simple]
+
+## Running the Datalog Programs
+
+This repository also includes the necessary user-defined C++ functions required by Soufflé to evaluate the `Datalog_rules.rs` files. These functions are implemented in the file [`functors.cpp`](functors.cpp).
+
+To execute the Datalog programs:
+
+1. **Build Soufflé**  
+   Follow the official build instructions provided here:  
+   👉 [https://souffle-lang.github.io/build](https://souffle-lang.github.io/build)
+
+2. **Integrate Custom Functors**  
+   Add the `functors.cpp` file to the Soufflé source directory and follow the integration guide here:  
+   👉 [https://souffle-lang.github.io/functors](https://souffle-lang.github.io/functors)
+
+3. **Execute the Datalog Program**  
+   Run Soufflé on any `Datalog_rules.rs` file following the simple execution steps here:  
+   👉 [https://souffle-lang.github.io/simple](https://souffle-lang.github.io/simple)
