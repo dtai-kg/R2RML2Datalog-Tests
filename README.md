@@ -31,10 +31,10 @@ To execute the Datalog programs:
 
 - **R2RML: RDB to RDF Mapping Language**  
   Souripriya Das, Seema Sundara, Richard Cyganiak.  
-  World Wide Web Consortium (W3C), Working Group Recommendation, 27 September 2012.  
+  World Wide Web Consortium (W3C), Working Group Recommendation, 2012.  
   [http://www.w3.org/TR/r2rml/](http://www.w3.org/TR/r2rml/)
 
 - **Soufflé: On Synthesis of Program Analyzers**  
   Herbert Jordan, Bernhard Scholz, Pavle Subotić.  
-  In *Computer Aided Verification*, Springer International Publishing, 2016, pp. 422–430.  
+  In Proceedings of the *Computer Aided Verification (CAV)*, 2016.  
   [https://souffle-lang.github.io/index.html](https://souffle-lang.github.io/index.html)
