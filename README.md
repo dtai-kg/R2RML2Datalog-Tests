@@ -1,4 +1,4 @@
-# R2RML2Datalog Test Cases
+# R2RML2Datalog Tests
 
 This repository provides a comprehensive collection of some official [R2RML test cases](https://www.w3.org/2001/sw/rdb2rdf/test-cases/) translated into Datalog programs using the [Soufflé](https://github.com/souffle-lang/souffle) reasoning engine syntax. Each test case directory contains the following components:
 
