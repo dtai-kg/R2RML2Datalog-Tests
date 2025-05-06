@@ -26,3 +26,11 @@ To execute the Datalog programs:
 3. **Execute the Datalog Program**  
    Run Soufflé on any `Datalog_rules.rs` file following the simple execution steps here:  
    👉 [https://souffle-lang.github.io/simple](https://souffle-lang.github.io/simple)
+
+## References
+
+- W3C. *R2RML: RDB to RDF Mapping Language*. World Wide Web Consortium (W3C), 2012.  
+  [https://www.w3.org/TR/r2rml/](https://www.w3.org/TR/r2rml/)
+
+- Jordan, H., Scholz, B., Subotic, P., and Somogyi, Z. *Soufflé: On Synthesis of Program Analyzers*. In Proceedings of the *Computer Aided Verification (CAV)*, 2016.  
+  [https://souffle-lang.github.io/](https://souffle-lang.github.io/)   
