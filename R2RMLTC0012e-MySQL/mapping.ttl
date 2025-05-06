@@ -1,0 +1,68 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://example.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@base <http://example.com/base/> .
+
+<TriplesMap1>
+    a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName  "IOUs" ];
+	
+    rr:subjectMap [ rr:template "{fname}{lname}{amount}"; rr:termType rr:BlankNode; ];
+    
+    rr:predicateObjectMap [
+    	rr:predicateMap [ rr:constant rdf:type];
+    	rr:objectMap [ rr:constant <IOUs>];
+    ];
+		
+    rr:predicateObjectMap
+    [ 
+      rr:predicateMap [ rr:constant		<IOUs#fname>] ; 
+      rr:objectMap		[ rr:column "fname"; ]
+    ];
+
+    rr:predicateObjectMap
+    [ 
+      rr:predicateMap [ rr:constant		<IOUs#lname>] ; 
+      rr:objectMap		[ rr:column "lname"; ]
+    ];
+
+    rr:predicateObjectMap
+    [ 
+      rr:predicateMap [ rr:constant		<IOUs#amount>] ; 
+      rr:objectMap		[ rr:column "amount"; ]
+    ];
+	.
+	
+<TriplesMap2>
+    a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName  "Lives" ];
+	
+    rr:subjectMap [ rr:template "{fname}{lname}{city}"; rr:termType rr:BlankNode; ];
+    
+    rr:predicateObjectMap [
+    	rr:predicateMap [ rr:constant rdf:type];
+    	rr:objectMap [ rr:constant <Lives>];
+    ];
+	
+    rr:predicateObjectMap
+    [ 
+      rr:predicateMap [ rr:constant		<IOUs#fname>] ; 
+      rr:objectMap		[ rr:column "fname"; ]
+    ];
+
+    rr:predicateObjectMap
+    [ 
+      rr:predicateMap [ rr:constant		<IOUs#lname>] ; 
+      rr:objectMap		[ rr:column "lname"; ]
+    ];
+
+    rr:predicateObjectMap
+    [ 
+      rr:predicateMap [ rr:constant		<IOUs#city>] ; 
+      rr:objectMap		[ rr:column "city"; ]
+    ];
+	.	
