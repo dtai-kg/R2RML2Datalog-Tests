@@ -29,8 +29,12 @@ To execute the Datalog programs:
 
 ## References
 
-- W3C. *R2RML: RDB to RDF Mapping Language*. World Wide Web Consortium (W3C), 2012.  
-  [https://www.w3.org/TR/r2rml/](https://www.w3.org/TR/r2rml/)
+- **R2RML: RDB to RDF Mapping Language**  
+  Souripriya Das, Seema Sundara, Richard Cyganiak.  
+  World Wide Web Consortium (W3C), Working Group Recommendation, 27 September 2012.  
+  [http://www.w3.org/TR/r2rml/](http://www.w3.org/TR/r2rml/)
 
-- Jordan, H., Scholz, B., Subotic, P., and Somogyi, Z. *Soufflé: On Synthesis of Program Analyzers*. In Proceedings of the *Computer Aided Verification (CAV)*, 2016.  
-  [https://souffle-lang.github.io/](https://souffle-lang.github.io/)   
+- **Soufflé: On Synthesis of Program Analyzers**  
+  Herbert Jordan, Bernhard Scholz, Pavle Subotić.  
+  In *Computer Aided Verification*, Springer International Publishing, 2016, pp. 422–430.  
+  [https://souffle-lang.github.io/index.html](https://souffle-lang.github.io/index.html)
