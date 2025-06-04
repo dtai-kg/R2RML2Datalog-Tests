@@ -9,9 +9,6 @@ This repository provides a comprehensive collection of some official [R2RML test
 - ✅ **`Datalog_rules.rs`**: The Datalog program generated from the R2RML mapping document in Soufflé syntax.
 - ✅ **`triples.csv`** and **`quadruples.csv`**: The RDF triples and named graph quads produced after executing the Soufflé program.
 
-## Summary
-The repository includes a summary of all the test-cases with the Datalog programs and results in the pdf file `R2RML Datalog tests_results.pdf`.
-
 ## Running the Datalog Programs
 
 This repository also includes the necessary user-defined C++ functions required by Soufflé to evaluate the `Datalog_rules.rs` files. These functions are implemented in the file [`functors.cpp`](functors.cpp).
@@ -29,6 +26,9 @@ To execute the Datalog programs:
 3. **Execute the Datalog Program**  
    Run Soufflé on any `Datalog_rules.rs` file following the simple execution steps here:  
    👉 [https://souffle-lang.github.io/simple](https://souffle-lang.github.io/simple)
+
+## Summary
+A summary of all the test-cases with the Datalog programs and results is found in the pdf file `R2RML Datalog tests_results.pdf`.   
 
 ## References
 
