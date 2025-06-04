@@ -10,7 +10,7 @@ This repository provides a comprehensive collection of some official [R2RML test
 - ✅ **`triples.csv`** and **`quadruples.csv`**: The RDF triples and named graph quads produced after executing the Soufflé program.
 
 ## Summary
-The repository includes a summary of all the test-cases with the Datalog programs and results in the pdf file [`R2RML Datalog tests_results.pdf`](`R2RML Datalog tests_results.pdf`).
+The repository includes a summary of all the test-cases with the Datalog programs and results in the pdf file `R2RML Datalog tests_results.pdf`.
 
 ## Running the Datalog Programs
 
