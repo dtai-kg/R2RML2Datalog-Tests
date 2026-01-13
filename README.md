@@ -11,7 +11,7 @@ This repository provides a comprehensive collection of some official [R2RML test
 
 ## R2RML2Datalog Universal Datalog Program
 
-In addition, this repository includes a **universal Datalog program that acts as an R2RML interpreter** descirbed in [3].
+In addition, this repository includes a **universal Datalog program that acts as an R2RML interpreter** described in [3].
 
 Users are only required to provide:
 
@@ -21,11 +21,11 @@ Users are only required to provide:
 
 -  The Datalog facts representing the relational database tables referenced in the mappings.
 
-The folder Universal Datalog Program contains:
+The folder **Universal Datalog Program** contains:
 
-- The complete universal Datalog program with all required rules, and
+1. The complete universal Datalog program with all required rules, and
 
-- An executable example demonstrating RDF generation from R2RML mappings using this universal Datalog program.
+2. An executable example demonstrating RDF generation from R2RML mappings using this universal Datalog program.
 
 ## Running the Datalog Programs
 
