@@ -9,6 +9,24 @@ This repository provides a comprehensive collection of some official [R2RML test
 - ✅ **`Datalog_rules.rs`**: The Datalog program generated from the R2RML mapping document in Soufflé syntax.
 - ✅ **`triples.csv`** and **`quadruples.csv`**: The RDF triples and named graph quads produced after executing the Soufflé program.
 
+# R2RML2Datalog Universal Datalog Program
+
+In addition, this repository includes a **universal Datalog program that acts as an R2RML interpreter**.
+
+Users are only required to provide:
+
+- The **R2RML mappings Turtle file**, encoded as Datalog facts of the form:
+  ```prolog
+  Mapping(x, y, z).
+
+-  The Datalog facts representing the relational database tables referenced in the mappings.
+
+The folder Universal Datalog Program contains:
+
+- The complete universal Datalog program with all required rules, and
+
+- An executable example demonstrating RDF generation from R2RML mappings using this universal Datalog program.
+
 ## Running the Datalog Programs
 
 This repository also includes the necessary user-defined C++ functions required by Soufflé to evaluate the `Datalog_rules.rs` files. These functions are implemented in the file [`functors.cpp`](functors.cpp).
