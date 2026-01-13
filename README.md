@@ -9,9 +9,9 @@ This repository provides a comprehensive collection of some official [R2RML test
 - ✅ **`Datalog_rules.rs`**: The Datalog program generated from the R2RML mapping document in Soufflé syntax.
 - ✅ **`triples.csv`** and **`quadruples.csv`**: The RDF triples and named graph quads produced after executing the Soufflé program.
 
-# R2RML2Datalog Universal Datalog Program
+## R2RML2Datalog Universal Datalog Program
 
-In addition, this repository includes a **universal Datalog program that acts as an R2RML interpreter**.
+In addition, this repository includes a **universal Datalog program that acts as an R2RML interpreter** descirbed in [3].
 
 Users are only required to provide:
 
@@ -50,12 +50,16 @@ A summary of all the test-cases with the Datalog programs and results is found i
 
 ## References
 
-- **R2RML: RDB to RDF Mapping Language**  
+1. **R2RML: RDB to RDF Mapping Language**  
   Souripriya Das, Seema Sundara, Richard Cyganiak.  
   World Wide Web Consortium (W3C), Working Group Recommendation, 2012.  
   [http://www.w3.org/TR/r2rml/](http://www.w3.org/TR/r2rml/)
 
-- **Soufflé: On Synthesis of Program Analyzers**  
+2. **Soufflé: On Synthesis of Program Analyzers**  
   Herbert Jordan, Bernhard Scholz, Pavle Subotić.  
   In Proceedings of the *Computer Aided Verification (CAV)*, 2016.  
   [https://souffle-lang.github.io/index.html](https://souffle-lang.github.io/index.html)
+
+3. **A Declarative Formalization of R2RML Using Datalog and Its Efficient Execution**
+  Ali Elhalawati, Anastasia Dimou, and Jan Van den Bussche.
+  In RuleChallenge@RuleML+RR, 2025.
