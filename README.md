@@ -11,7 +11,7 @@ This repository provides a comprehensive collection of some official [R2RML test
 
 ## R2RML2Datalog Universal Datalog Program
 
-In addition, this repository includes a **universal Datalog program that acts as an R2RML interpreter** described in [3].
+In addition, this repository includes a **universal Datalog program** that acts as an R2RML interpreter [3].
 
 Users are only required to provide:
 
