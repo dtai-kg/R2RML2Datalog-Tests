@@ -63,3 +63,4 @@ A summary of all the test-cases with the Datalog programs and results is found i
 3. **A Declarative Formalization of R2RML Using Datalog and Its Efficient Execution**
   Ali Elhalawati, Anastasia Dimou, and Jan Van den Bussche.
   In RuleChallenge@RuleML+RR, 2025.
+  [Paper](https://ceur-ws.org/Vol-4083/paper63.pdf)
